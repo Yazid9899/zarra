@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  place-items: center;
+}
+.home-section {
+  margin: 10rem 5rem;
+}
+.product-cards {
+  max-width: 10hv;
+  margin-top: 20hv;
+  border: 0;
+  background-color: transparent;
+}
+.card-img {
+  max-height: 90%;
+  max-width: 100%;
+}
+
+.image-table-product {
+  max-width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+}
+nav {
+  position: fixed;
+  background-color: #0c006af3;
+  height: 100vh;
+  width: 30vh;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.navbar {
+  height: 90px;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav-image {
+  height: 100px;
+  width: 100px;
+}
+.nav-item {
+  margin-right: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: lightgray;
+}
+.navbar:hover {
+  background-color: white;
+  transition: 1000ms;
+}
+.navbar-logo {
+  max-height: 10rem;
+  margin-left: 2rem;
+}
+.sideBar-content {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sideBar-content:hover {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 7px;
+}
+.main-content {
+  flex: auto;
+  margin-left: 15rem;
+}
+.scroll-container {
+  max-height: 40rem;
+  max-width: 31rem;
+}
+.detail-img {
+  height: 40rem;
+  width: 30rem;
+}
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #d1a1a1;
+}
+.detail-title {
+  font-size: 80px;
+  margin-bottom: 10rem;
+}
+
+.detail-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.detail-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.detail-category {
+  font-size: 16px;
+  color: #393737;
+}
+.backhome {
+  color: #393737;
+}
